@@ -1,39 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        h1 { color: #0073e6; }
-        .container { max-width: 800px; margin: auto; padding: 20px; }
-        .project { margin: 20px 0; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
-        a { color: #0073e6; text-decoration: none; font-weight: bold; }
-    </style>
+    <title>My Portfolio | SB Admin 2</title>
+
+    <!-- Custom Fonts & Styles -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Sandra! A data scientist passionate about analytics, machine learning, and AI.</p>
-        
-        <h2>Projects</h2>
-        
-        <div class="project">
-            <h3>Predictive Maintenance</h3>
-            <p>Machine Learning model for early equipment failure detection.</p>
-            <a href="https://github.com/Sunnys-codes/predictive_maintenance" target="_blank">View Project</a>
-        </div>
 
-        <div class="project">
-            <h3>Hospital Revenue Cycle Analysis</h3>
-            <p>Optimizing hospital revenue with KPIs and predictive modeling.</p>
-            <a href="https://github.com/Sunnys-codes/Hospital-Revenue-Cycle-Analysis" target="_blank">View Project</a>
-        </div>
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
 
-        <h2>Contact</h2>
-        <p>📧 Email: <a href="mailto:sthermils@gmail.com">sthermils@gmail.com</a></p>
-        <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/sandra-thermildor" target="_blank">Sandra Thermildor</a></p>
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon"><i class="fas fa-chart-line"></i></div>
+                <div class="sidebar-brand-text mx-3">My Portfolio</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Navigation Links -->
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html"><i class="fas fa-tasks"></i> Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Main Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                    <h1 class="h3 mb-0 text-gray-800">Welcome to My Portfolio</h1>
+                </nav>
+
+                <!-- Page Content -->
+                <div class="container-fluid">
+                    <p>Hi, I'm Sandra! A data scientist passionate about analytics, machine learning, and AI.</p>
+
+                    <!-- Projects Section -->
+                    <h2 class="text-primary">Projects</h2>
+
+                    <div class="row">
+                        <!-- Predictive Maintenance Project -->
+                        <div class="col-lg-6">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Predictive Maintenance</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Machine Learning model for early equipment failure detection.</p>
+                                    <a href="https://github.com/Sunnys-codes/predictive_maintenance" class="btn btn-primary" target="_blank">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hospital Revenue Cycle Analysis Project -->
+                        <div class="col-lg-6">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Hospital Revenue Cycle Analysis</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Optimizing hospital revenue with KPIs and predictive modeling.</p>
+                                    <a href="https://github.com/Sunnys-codes/Hospital-Revenue-Cycle-Analysis" class="btn btn-primary" target="_blank">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Section -->
+                    <h2 class="text-primary">Contact</h2>
+                    <p>📧 Email: <a href="mailto:sthermils@gmail.com">sthermils@gmail.com</a></p>
+                    <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/sandra-thermildor" target="_blank">Sandra Thermildor</a></p>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/sb-admin-2.min.js"></script>
+
 </body>
 </html>
